@@ -4,7 +4,7 @@
   
 }
 .i{
-    height: auto;
+    height: 600px;
 }
 .nav-link{
     margin: 0 10px;
@@ -16,5 +16,8 @@ margin-bottom: 9px;
 @media (max-width: 575.98px) {
     div{
         color: darkolivegreen;
+    }
+    .i{
+        height:auto
     }
 }
