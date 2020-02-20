@@ -4,5 +4,17 @@
   
 }
 .i{
-    height: 900px;
+    height: auto;
+}
+.nav-link{
+    margin: 0 10px;
+    color: darkmagenta !important;
+}
+.z{
+margin-bottom: 9px;
+}
+@media (max-width: 575.98px) {
+    div{
+        color: darkolivegreen;
+    }
 }
