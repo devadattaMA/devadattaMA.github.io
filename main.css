@@ -5,6 +5,22 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
+  transition:5s ;
+}
+.jumbotron:hover{
+    background-image: url('https://picsum.photos/id/776/1200/1000');
+    transition: 5s;
+    cursor: progress;
+}
+.btn-q{
+    background-color: chartreuse;
+    color: firebrick;
+    transition: 2s;
+    cursor: wait;
+}
+.btn-q:hover{
+background-color: floralwhite;
+color: fuchsia;
 }
 .i{
     height: auto;
@@ -31,7 +47,14 @@ margin-bottom: 9px;
 .card{
     margin-top:-85px ;
     height: 170px;
-
+    transition: 10s;
+}
+.card:hover{
+    background-color: blueviolet;
+    color: burlywood;
+    transition: 10s;
+    height: 200px;
+    cursor: no-drop;
 }
 @media (max-width: 575.98px) {
     .card{
