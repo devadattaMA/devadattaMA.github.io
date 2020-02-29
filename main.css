@@ -1,17 +1,33 @@
+.header h1{
+    margin-top: 250px;
+}
 .header{
-    float: right;
-    /* margin-top: 100px; */}
+    text-align: center;
+    background-attachment: fixed;
+}
+.carousel-item img{
+    height: 400px;
+    object-fit: cover;
+}
 .u{
-    height: 200px;
     margin-bottom:60px ;
+    height: 100vh;
 }
 .navbar{
-    background-image: url(https://picsum.photos/600/400);
+    background-image: url(https://picsum.photos/id/179/1366/800);
+    /* background-size: cover; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
 }
 .body2{
-    background-image: url(https://picsum.photos/id/111/600/400);
+    background-image: url(https://picsum.photos/id/179/1366/800);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .bawah{
-    background-image: url(https://picsum.photos/id/112/600/400);
-    height: 400px;
+    background-image: url(https://picsum.photos/id/179/1366/800);
+    /* height: 400px; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
